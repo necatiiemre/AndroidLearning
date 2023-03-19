@@ -1,6 +1,6 @@
 package com.example.oopdetails;
 
-public class Animal {
+public class Animal  {
     String name;
     String eyeColor;
     String featherColor;

@@ -22,5 +22,11 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(Cat.kind);
         cat.talk();
         Cat.talkStatic();
+
+        Dog dog = new Dog();
+        Dog dog1 = new Dog("Paşa", "Brown","Coffe");
+        System.out.println(dog1.featherColor);
+
+        Animal animal = new Animal();
     }
 }

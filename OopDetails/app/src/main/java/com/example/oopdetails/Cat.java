@@ -1,6 +1,6 @@
 package com.example.oopdetails;
 
-public class Cat {
+public class Cat implements Education{
 
     private  String name;
     private String eyeColor;
@@ -48,5 +48,10 @@ public class Cat {
 
     public void talk(){
         System.out.println("Benim ismim : " + this.name+ " Benim Türüm : " + kind);
+    }
+
+    @Override
+    public boolean takeEducation() {
+        return false;
     }
 }
